@@ -1,0 +1,11 @@
+<FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
+    <Drivers>
+        <BaseDriverPackages>
+            <DriverPackageFile Path="$(mspackageroot)\components\eMMC" Name="sdhc.inf" ID="sdhc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\I2C" Name="qci2c660.inf" ID="qci2c660"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\BAM" Name="qckmbam660.inf" ID="qckmbam660"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\GPIO" Name="qcgpio660.inf" ID="qcgpio"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Touch" Name="vhidmini.inf" ID="vhidmini"/>
+        </BaseDriverPackages>
+    </Drivers>
+</FeatureManifest>
